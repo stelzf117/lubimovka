@@ -20,6 +20,7 @@
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.1",
     "postcss-loader": "^7.0.1",
+    "resolve-url-loader": "^5.0.0",
     "sass-loader": "^13.1.0",
     "scss-loader": "^0.0.1",
     "webpack": "^5.74.0",
