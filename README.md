@@ -22,6 +22,6 @@
 ### Над проектом работали:
 
 * Сергей Горбунов [@stelzf117](https://github.com/stelzf117)
-* Степаненко Александр(https://github.com/SashkaStudent/)
+* Степаненко Александр[@SashkaStudent](https://github.com/SashkaStudent/)
 * Екатерина Водянкина [@EkaterinaVokin](https://github.com/EkaterinaVokin)
 * Анастасия Панюк [@anastasia-panuk](https://github.com/anastasia-panuk/)
