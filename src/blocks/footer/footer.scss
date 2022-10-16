@@ -1,0 +1,96 @@
+.footer {
+  max-width: 1440px;
+  width: 96.52%;
+  margin: 0 auto;
+
+  @media screen and (max-width:429px) {
+    width: 70.86%
+
+  }
+
+  &__grid {
+    padding-top: 42px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+      'logo partners partners'
+      'logo address links'
+      'logo copyrights copyrights';
+    box-sizing: border-box;
+    @media screen and (max-width: 429px) {
+      grid-template-columns: 1;
+      // grid-template-rows: repeat(3, auto);
+      grid-auto-rows: auto;
+      grid-template-areas:
+        'logo'
+        'address'
+        'links'
+        'partners'
+        'copyrights';
+      box-sizing: border-box;
+    }
+  }
+
+  &__logo-container {
+    grid-area: logo;
+  }
+
+  &__partners-container {
+    grid-area: partners;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  &__address-container {
+    grid-area: address;
+  }
+
+  &__links-container {
+    grid-area: links;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap:50px;
+    @media screen and (max-width: 429px) {
+      justify-content: flex-start;
+
+    }
+  }
+
+  &__links-column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    @media screen and (max-width: 429px) {
+      gap: 13px;
+
+    }
+  }
+
+  &__link {
+    @include paragraph;
+    @include link;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0em;
+    @media screen and (max-width:429px) {
+      font-size: 18px;
+      line-height: 23px;
+
+    }
+  }
+
+  &__copyrights-container {
+    grid-area: copyrights;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  &__logo {
+  }
+}
