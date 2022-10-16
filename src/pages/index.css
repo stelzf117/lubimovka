@@ -1,0 +1,16 @@
+/* Copyright (c) 2014-2019 by Gayane Bagdasaryan, Vyacheslav Kirilenko. All rights reserved. */
+@font-face {
+  font-family: "Formular";
+  src: url("../fonts/FormularLight/formular-light.eot") format("embedded-opentype"), url("../fonts/FormularLight/formular-light.woff2") format("woff2"), url("../fonts/FormularLight/formular-light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Neue Machina";
+  src: url("../fonts/NeueMachinaRegular/PPNeueMachina-Regular.eot") format("embedded-opentype"), url("../fonts/NeueMachinaRegular/PPNeueMachina-Regular.woff") format("woff"), url("../fonts/NeueMachinaRegular/PPNeueMachina-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Formular", Arial, sans-serif;
+}/*# sourceMappingURL=index.css.map */

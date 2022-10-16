@@ -1,0 +1,57 @@
+.demo {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 50px 0;
+
+  &__container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+  }
+
+  &__header {
+    margin: 0;
+    padding: 0;
+    @include header;
+  }
+
+  &__title {
+    margin: 0 auto;
+    padding: 20px 0;
+    @include title;
+  }
+
+  &__paragraph {
+    margin: 0 auto;
+    padding: 10px 0;
+    @include paragraph;
+  }
+
+  &__link {
+    margin: 0 auto;
+    padding-top: 10px;
+    @include text-link;
+  }
+}
+
+.demo-green {
+  background-color: $additional-background_color;
+  padding: 50px;
+
+  &__container {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  &__title {
+    margin: 0 auto;
+    @include title;
+  }
+
+  &__paragraph {
+    padding: 20px 0 0 20px ;
+    margin: 0 auto;
+  }
+}

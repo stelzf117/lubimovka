@@ -1,4 +1,7 @@
-body {
-font-family: 'Formular';
-}
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
 
+
+body{
+  margin: 0;
+}
