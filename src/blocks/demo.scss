@@ -1,5 +1,7 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+
 .demo {
-  max-width: 1440px;
   margin: 0 auto;
   padding: 50px 0;
 
@@ -32,7 +34,8 @@
   &__link {
     margin: 0 auto;
     padding-top: 10px;
-    @include text-link;
+    @include paragraph;
+    @include link;
   }
 }
 

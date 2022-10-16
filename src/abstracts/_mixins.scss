@@ -35,13 +35,8 @@
   color: $text_color;
 }
 
-@mixin text-link {
+@mixin link {
   font-family: $paragraph_font-family;
-  color: $text_color;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 17px;
-  letter-spacing: 0em;
   transition: opacity 0.3s ease-out;
   text-decoration: none;
   opacity: 1;
