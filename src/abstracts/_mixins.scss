@@ -53,7 +53,7 @@
   }
 }
 
-@mixin mobule {
+@mixin mobile {
   @media (max-width: 479px) {
     @content;
   }
