@@ -46,3 +46,15 @@
     opacity: 0.5;
   }
 }
+
+@mixin tablet {
+  @media (max-width: 1023px) {
+    @content;
+  }
+}
+
+@mixin mobule {
+  @media (max-width: 479px) {
+    @content;
+  }
+}
