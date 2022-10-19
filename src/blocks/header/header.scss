@@ -1,0 +1,99 @@
+@import '../../abstracts/mixins.scss';
+@import '../../abstracts/variables.scss';
+@import '../../abstracts/templates.scss';
+
+.header {
+  @include tablet {
+    display: none;
+  }
+  width: 100%;
+  border: {
+    bottom: 1px solid $text_color;
+  }
+
+  &__wrapper {
+    margin: 0 auto;
+    padding: {
+      left: 20px;
+      right: 20px;
+    }
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 10px;
+    align-items: center;
+    font-family: $paragraph_font-family;
+    color: $text_color;
+    font-size: 16px;
+    height: 62px;
+    max-width: 1440px;
+  }
+
+  &__logo {
+    display: block;
+    width: 43px;
+    height: 34.89px;
+  }
+
+  &__menu-wrapper {
+    max-width: 864px;
+    width: 100%;
+  }
+
+  &__menu {
+    @extend %resetTable;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 10px;
+  }
+
+  &__social-webs {
+    @extend %resetTable;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 207px;
+    width: 100%;
+    column-gap: 10px;
+    padding: {
+      right: 25px;
+      left: 25px;
+    }
+  }
+
+  &__social-webs::before {
+    content: '';
+    position: absolute;
+    height: 50px;
+    width: 1px;
+    background-color: $text-color;
+    left: -1px;
+    top: -8px;
+  }
+
+  &__social-webs::after {
+    content: '';
+    position: absolute;
+    height: 50px;
+    width: 1px;
+    background-color: $text-color;
+    right: -1px;
+    top: -8px;
+
+  }
+
+  &__button {
+    @extend %resetButton;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: $paragraph_font-family;
+    width: 164px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
