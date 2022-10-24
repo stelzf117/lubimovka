@@ -33,10 +33,11 @@
 
   &__cards {
     list-style: none;
-    margin: 0 auto;
+    margin: 0 240px 0 270px;
     padding: 0;
     display: flex;
     max-width: 930px;
+    justify-content: center;
     overflow: auto;
 
   }
