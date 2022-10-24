@@ -39,7 +39,7 @@
     max-width: 930px;
     justify-content: center;
     overflow: auto;
-
+    scrollbar-width: none;
   }
 
   &__card {
@@ -62,7 +62,6 @@
     margin-bottom: 16px;
 
     @include mobile {
-    -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     }
   }
